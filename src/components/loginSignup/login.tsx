@@ -12,8 +12,20 @@ const login = () => {
                     </div>
                     <div className="py-8 md:px-16 bg-white">
                       <div className="text-3xl font-semibold flex">
-                      <h1 className="">Login</h1>
-                      <h1 className="pt-2 pl-2"><IonIcon name="person"></IonIcon></h1>
+                        <h1 className="">Login</h1>
+                        <h1 className="pt-2 pl-2"><IonIcon name="person"></IonIcon></h1>
+                      </div>
+                      <div className="">
+                        <form>
+                          <div className="py-4">
+                            <label htmlFor="username" >Username :</label>
+                            <input type="text" className="border border-gray-200 w-full h-12 rouded mt-2" />
+                          </div>
+                          <div className="py-4">
+                            <label htmlFor="password" >Password :</label>
+                            <input type="password" className="border border-gray-200 w-full h-12 rouded mt-2" />
+                          </div>
+                        </form>
                       </div>
                     </div>
                 </div>
