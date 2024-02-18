@@ -18,12 +18,15 @@ const login = () => {
                       <div className="">
                         <form>
                           <div className="py-4">
-                            <label htmlFor="username" >Username :</label>
-                            <input type="text" className="border border-gray-200 w-full h-12 rouded mt-2" />
+                            <label htmlFor="username" className="text-xl" >Username :</label>
+                            <input type="text" className="text-xl pl-2 border border-gray-200 w-full h-12 rouded mt-2" />
                           </div>
                           <div className="py-4">
-                            <label htmlFor="password" >Password :</label>
-                            <input type="password" className="border border-gray-200 w-full h-12 rouded mt-2" />
+                            <label htmlFor="password" className="text-xl">Password :</label>
+                            <input type="password" className="pl-2 text-xl border border-gray-200 w-full h-12 rouded mt-2" />
+                          </div>
+                          <div className="py-4">
+                            <button className="border border-blue w-full h-16 text-xl">Login</button>
                           </div>
                         </form>
                       </div>
