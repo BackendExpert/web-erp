@@ -1,3 +1,5 @@
+import IonIcon from "@reacticons/ionicons"
+
 const login = () => {
   return (
     <div className="bg-cover bg-center h-screen bg-[url(https://wallpapercave.com/wp/wMM3NrR.jpg)]">
@@ -9,7 +11,10 @@ const login = () => {
                       <p className="text-xl py-2">Enterprise resource planning </p>
                     </div>
                     <div className="py-8 md:px-16 bg-white">
-                      <h1 className="text-3xl font-semibold">Login</h1>
+                      <div className="text-3xl font-semibold flex">
+                      <h1 className="">Login</h1>
+                      <h1 className=""><IonIcon name="person"></IonIcon></h1>
+                      </div>
                     </div>
                 </div>
             </div>
