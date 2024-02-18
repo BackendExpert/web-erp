@@ -26,7 +26,7 @@ const login = () => {
                             <input type="password" className="pl-2 text-xl border border-gray-200 w-full h-12 rouded mt-2" />
                           </div>
                           <div className="py-4">
-                            <button className="border border-blue w-full h-16 text-xl">Login</button>
+                            <button className="rounded border border-blue-500 text-blue-600 w-full h-16 text-xl duration-500 hover:bg-blue-500 hover:text-white">Login</button>
                           </div>
                         </form>
                       </div>
