@@ -4,7 +4,10 @@ const login = () => {
         <div className="container mx-auto px-40 py-40">
             <div className="md:px-20 md:py-20 bg-white rounded">
                 <div className="md:grid grid-cols-2 gap-2">
-                    <div className="">Login IMG</div>
+                    <div className="">
+                      <h1 className="text-3xl font-semibold">Welcome Back</h1>
+                      <p className="text-xl py-2">Enterprise resource planning </p>
+                    </div>
                     <div className="">Login Form</div>
                 </div>
             </div>
