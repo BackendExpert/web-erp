@@ -1,7 +1,13 @@
+// import from template folder
+import LoginReg from "../../template/LoginReg"
 
 const loginUser = () => {
   return (
-    <div>loginUser</div>
+    <LoginReg>
+        <div className="">
+            Login Here
+        </div>
+    </LoginReg>
   )
 }
 
