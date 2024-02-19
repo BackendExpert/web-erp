@@ -6,7 +6,9 @@ interface Props{
 
 const loginReg = ({children}:Props) => {
   return (
-    <div>loginReg</div>
+    <div className="container mx-auto px-32">
+        Login
+    </div>
   )
 }
 
